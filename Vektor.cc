@@ -18,7 +18,7 @@ std::ostream& operator<<(std::ostream& os, Vektor v) {
 }
 
 std::istream& operator>>(std::istream& is, Vektor& v) {
-  is >> v.x_ >> v.y_ >> v.x_;
+  is >> v.x_ >> v.y_ >> v.z_;
   return is;
 }
 
