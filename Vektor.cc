@@ -1,11 +1,11 @@
 #include "Vektor.hh"
 #include "cmath"
 
-Vektor::Vektor(double nx, double ny, double nz) 
+Vektor::Vektor(double x, double y, double z) 
   {
-  x_ = nx;
-  y_ = ny;
-  z_ = nz;
+  x_ = x;
+  y_ = y;
+  z_ = z;
 }
 double Vektor::betrag()
   {
@@ -13,7 +13,7 @@ double Vektor::betrag()
 }
 
 std::ostream& operator<<(std::ostream& os, Vektor v) {
-  os << "(" << v.x_ << "," << v.z_ << ")";
+  os << "(" << v.x_ << "," << v.y_ << "," << v.z_ << ")";
   return os;
 }
 
