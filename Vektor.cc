@@ -38,6 +38,6 @@ double Vektor::mal(Vektor v) {
 }
 
 Vektor Vektor::kreuz(Vektor v) {
-  Vektor erg(y_* v.z_ - z_ * v.y_ , z_ * v.x_ - x_ * v.z_, x_ * v.z_ - y_ * v.x_);
+  Vektor erg(y_* v.z_ - z_ * v.y_ , z_ * v.x_ - x_ * v.z_, x_ * v.y_ - y_ * v.x_);
   return erg;
 }
