@@ -6,9 +6,10 @@
 /*
   Klasse fuer einen Punkt oder Vektor in drei Dimensionen
  */
+
 class Vektor {
  public:
-  Vektor(double nx = 0, double ny = 0, double nz = 0);
+  Vektor(double x = 0, double y = 0, double z = 0);
 
   double betrag();
 
